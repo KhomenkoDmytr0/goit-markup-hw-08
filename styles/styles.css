@@ -150,7 +150,8 @@ footer .logo-studio {
     box-sizing: border-box;
     justify-self: center;
     position: relative;
-    left: 20%;
+margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-bt {
