@@ -75,7 +75,6 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
-    padding-right: 43px;
 }
 
 footer .logo-studio {
@@ -130,7 +129,9 @@ footer .logo-studio {
 /*------------------------------HERO------------------------------*/
 
 .hero , .info-ft {background-color: #2F303A;}
-
+.hero {
+    justify-items: center;
+}
 .hero-h1 {
     font-weight: 900;
     font-size: 44px;
@@ -141,6 +142,15 @@ footer .logo-studio {
     color: #FFFFFF;
     padding-top: 200px;
     padding-bottom: 30px; 
+       
+}
+
+.text-box {
+    width: 696px;
+    box-sizing: border-box;
+    justify-self: center;
+    position: relative;
+    left: 20%;
 }
 
 .hero-bt {
@@ -164,16 +174,28 @@ padding: 10px 32px;}
 /*------------------------------MAIN CONTENT------------------------------*/
 
 .skills-list {list-style: none;
-    padding-top: 74px;
-padding-bottom: 94px;}
+}
+
+.skills {
+
+padding-top: 94px;
+padding-bottom: 94px; 
+}
+
+.skills-list {
+    flex-direction: row;
+display: flex;
+}
 
 .skills-h3 {
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-size: 14px;
+    color: #212121;
+    margin-bottom: 10px;}
 
-    color: #212121;;}
 
 
 .skills-p {
@@ -191,12 +213,25 @@ padding-bottom: 94px;}
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.about-list {
+    flex-direction: row;
+}
+
+.about {
+    flex-direction: column;
+    padding-bottom: 94px;
 }
 
 
 /*------------------------------TEAM------------------------------*/
 
+.team {
+    padding-top: 94px;
+    background-color: #F5F4FA;
+}
 .team-h2 {
     font-weight: 700;
     font-size: 36px;
@@ -204,21 +239,27 @@ padding-bottom: 94px;}
     text-align: center;
     color: #212121;
     padding-bottom: 50px;
-    padding-top: 94px;} 
+}
 
 .team-h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     color: #212121;
-    padding-top: 30px;}
+margin-bottom: 10px;
+text-align: center;}
 
 .team-p {
     font-size: 16px;
     line-height: 1.18;
     color: #757575;
-    padding-top: 10px;}
 
+text-align: center;}
+
+.team-description {
+padding-top: 30px;
+padding-bottom: 30px;
+}
 
         .team-list {padding-bottom: 94px;}
 
@@ -288,24 +329,32 @@ border: none;}
 /*------------------------------------------------------------------------------------------------------------------------*/
 
 
-.header-tel {
-    padding-left: 50px;
-}
-.header-mail {
-    padding-left: 344px;
-}
+
+
 /* .header-link {
     row-gap:  50px;
 }
 .header-link:first-child {margin-left: 93px;
     
 } */
-.header-item:first-child {margin-left: 93px;}
-.header-item {row-gap: 50px;}
+.header-item:nth-child(2) 
+{margin-left: 93px;}
 
+.header-item {
+ margin-left: 50px;
+}
 
+.contacts-header {
 
+   margin-left: 344px;
+display: flex;
+flex-direction: row;
+  gap: 50px; 
+}
 
+.contacts-block {
+      align-self: center;
+}
 
 
 
@@ -378,16 +427,10 @@ footer {
 
 .portfolio-item {
     width: 370px;
-    height: 404px;
-}
-
-
-.gallery-section {
-    padding-bottom: 94px;
 }
 
 .portfolio-buttons-list {
-    padding-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .portfolio-bt {
@@ -409,20 +452,27 @@ footer {
 }
 
 
-.button-portfolio-nav {
-    padding-top: 94px;
-}
+
 
 .portfolio-h2 {
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
-.portfolio-item {
-    padding: 32px 0;
-}
+
 
 .portfolio-description {
     border: 1px solid #ECECEC;
     border-top: none;
     padding: 20px 24px;
+}
+
+
+.hero {
+    flex-direction: column;
+}
+
+.portfolio-block {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    flex-direction: column;
 }
