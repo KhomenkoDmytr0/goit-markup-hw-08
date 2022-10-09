@@ -1,0 +1,428 @@
+
+/*------------------------------BODY------------------------------*/
+
+body {font-family: "Roboto" , sans-serif;
+font-size: 14px;
+letter-spacing: 0.03em;
+}
+
+/*------------------------------GLOBAL------------------------------*/
+
+.list {list-style: none;}
+
+.link {text-decoration: none;}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+}
+
+/*------------------------------CONTAINER------------------------------*/
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*------------------------------HEADER------------------------------*/
+
+.header-list {
+    display: flex;
+}
+
+
+.logo-web {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;}
+    
+.logo-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    padding-right: 43px;
+}
+
+footer .logo-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;}
+
+.header-link {  
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header-link:hover , .header-link:focus {color: #2196F3;}
+
+
+.header-mail {
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;}
+
+
+
+.header-mail:hover , .header-tel:hover {color: #2196F3; }
+
+
+
+.header-tel {
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;}
+
+.header-mail:focus, .header-tel:focus {color: #2196F3;}
+
+
+
+ 
+
+/*------------------------------HERO------------------------------*/
+
+.hero , .info-ft {background-color: #2F303A;}
+
+.hero-h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.45;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 200px;
+    padding-bottom: 30px; 
+}
+
+.hero-bt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    margin: 0 auto;
+    display: block;
+
+    color: #FFFFFF;
+    background-color: #2196F3;
+
+padding: 10px 32px;}
+
+/*------------------------------MAIN CONTENT------------------------------*/
+
+.skills-list {list-style: none;
+    padding-top: 74px;
+padding-bottom: 94px;}
+
+.skills-h3 {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;;}
+
+
+.skills-p {
+    font-weight: 400;
+    line-height: 1.71;
+    color: #757575;}
+
+    /*--------------ABOUT---------------*/
+
+.about-h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    padding-bottom: 50px;
+}
+
+
+/*------------------------------TEAM------------------------------*/
+
+.team-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: #212121;
+    padding-bottom: 50px;
+    padding-top: 94px;} 
+
+.team-h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #212121;
+    padding-top: 30px;}
+
+.team-p {
+    font-size: 16px;
+    line-height: 1.18;
+    color: #757575;
+    padding-top: 10px;}
+
+
+        .team-list {padding-bottom: 94px;}
+
+/*------------------------------FOOTER------------------------------*/
+
+ .address-ft {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;}
+
+
+    footer .header-mail , footer .header-tel {color: rgba(255, 255, 255, 0.6);}
+
+    
+
+/*------------------------------PORTFOLIO BUTTONS------------------------------*/
+
+.portfolio-buttons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+
+.portfolio-bt {
+    background-color: #F5F4FA;
+    margin-left: 10px;
+
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+border: none;}
+
+.portfolio-bt:focus {
+    color: #FFFFFF;
+    background-color: #2196F3}
+
+.portfolio-bt:hover {color: #FFFFFF;
+    background-color: #2196F3}
+
+
+
+/*------------------------------PORTFOLIO------------------------------*/
+.portfolio-h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height:2;
+    letter-spacing: 0.06em;
+    color: #212121;}
+    
+.portfolio-txt {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;}
+
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------ HOMEWORK №3 -----------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+
+.header-tel {
+    padding-left: 50px;
+}
+.header-mail {
+    padding-left: 344px;
+}
+/* .header-link {
+    row-gap:  50px;
+}
+.header-link:first-child {margin-left: 93px;
+    
+} */
+.header-item:first-child {margin-left: 93px;}
+.header-item {row-gap: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-list, .team-list, .about-list, .portfolio-list  {
+    column-gap: 30px;
+}
+
+.hero {
+    padding-bottom: 200px;
+    
+}
+
+header {
+    padding: 24px 0;
+    border-bottom: 1px solid #ECECEC;
+}
+
+
+.header-list {
+    align-items: center;
+}
+
+.ft {
+    padding: 0 0 0 0;
+}
+
+footer {
+   padding: 60px 0;
+}
+
+.logo-position-ft {
+    padding-bottom: 20px;
+}
+
+.logo-ft{
+    padding-bottom: 20px;
+}
+
+.contact-ft{
+   padding-bottom: 9px;  
+}
+
+.hero-bt {
+    border-radius: 4px;
+    box-shadow: 10px 16px #2F303A;
+    border: none;
+}
+
+/*---------------------------- PORTFOLIO----------------------------*/
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.portfolio-item {
+    width: 370px;
+    height: 404px;
+}
+
+
+.gallery-section {
+    padding-bottom: 94px;
+}
+
+.portfolio-buttons-list {
+    padding-bottom: 34px;
+}
+
+.portfolio-bt {
+    border-radius: 4px;
+    row-gap: 8px;
+    padding: 6px 22px;
+}
+
+.portfolio-bt:hover{
+    border-radius: 4px;
+    box-shadow: 0 4px 8px -2px #2F303A;
+    border: none;
+}
+
+.portfolio-bt:focus {
+    border-radius: 4px;
+    box-shadow: 0 4px 8px -2px #2F303A;
+    border: none;
+}
+
+
+.button-portfolio-nav {
+    padding-top: 94px;
+}
+
+.portfolio-h2 {
+    padding-bottom: 4px;
+}
+
+.portfolio-item {
+    padding: 32px 0;
+}
+
+.portfolio-description {
+    border: 1px solid #ECECEC;
+    border-top: none;
+    padding: 20px 24px;
+}
