@@ -47,8 +47,8 @@ img {
     box-sizing: border-box;
     margin: 0 auto;
     width: 1200px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*------------------------------HEADER------------------------------*/
@@ -176,8 +176,8 @@ padding: 10px 32px;}
 
 padding-top: 94px;
 padding-bottom: 94px; 
-padding-left: 15px;
-padding-right: 15px;
+/* padding-left: 15px;
+padding-right: 15px; */
 }
 
 .skills-list {
@@ -413,10 +413,6 @@ footer {
     padding-bottom: 20px;
 }
 
-.contact-ft{
-   margin-bottom: 9px;  
-
-}
 
 .hero-bt {
     border-radius: 4px;
