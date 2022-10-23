@@ -418,12 +418,21 @@ footer {
 }
 
 .logo-position-ft {
-    margin-bottom: 20px;
+    line-height: 31px;
 }
 
-.logo-ft{
-    padding-bottom: 20px;
+.contact-ft {margin-bottom: 9px;}
+
+.contact-ft:last-child {
+margin-bottom: 0;
 }
+
+.address-ft{margin-top: 20px;}
+
+
+/* .logo-ft{
+    padding-bottom: 20px;
+} */
 
 
 .hero-bt {
@@ -585,16 +594,29 @@ footer {
 }
 
 .clients-item {
-    height: 92px;
+
     width: calc((100%-150px)/6); 
-    align-items: center;
-        justify-content: center;
-        display: flex;
+
 
 }
 
-.clients-item {border: solid 1px #AFB1B8;
+
+
+.clients-link {height: 92px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;}
+
+
+.clients-link {border: solid 1px #AFB1B8;
 border-radius: 4px;}
+
+.clients-link:hover , .clients-link:focus {
+    border: solid 1px #2196F3;
+}
+
+
 
 .clients .container {display: block;}
 
@@ -656,6 +678,7 @@ border-radius: 4px;}
 
 .footer-soc { 
     margin-left: 70px;
+    margin-top: 12px;
 }
 
 
