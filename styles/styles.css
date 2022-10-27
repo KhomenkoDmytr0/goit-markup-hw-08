@@ -104,11 +104,13 @@ footer .logo-studio {
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color: #757575;}
+    color: #757575;
+    
+}
 
 
 
-.header-mail:hover , .header-tel:hover {color: #2196F3; }
+.header-mail:hover , .header-tel:hover {color: #2196F3; fill: #2196F3;}
 
 
 
@@ -119,7 +121,9 @@ footer .logo-studio {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #757575;}
+    color: #757575;
+    display: flex;
+}
 
 .header-mail:focus, .header-tel:focus {color: #2196F3;}
 
@@ -253,7 +257,7 @@ display: flex;
     line-height: 1.16;
     text-align: center;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team-h3 {
@@ -377,11 +381,14 @@ border: none;}
 
 .contacts-header {
 
-   margin-left: 344px;
+   margin-left: 280px;
 display: flex;
 flex-direction: row;
   gap: 50px; 
 }
+
+.header-contacts-item {
+margin-right: 10px;}
 
 .contacts-block {
       align-self: center;
