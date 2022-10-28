@@ -110,7 +110,7 @@ footer .logo-studio {
 
 
 
-.header-mail:hover , .header-tel:hover {color: #2196F3; fill: #2196F3;}
+
 
 
 
@@ -125,12 +125,14 @@ footer .logo-studio {
     display: flex;
 }
 
-.header-mail:focus, .header-tel:focus {color: #2196F3;}
+.header-mail,
+.header-tel {
+    fill: #757575;
+}
 
+.header-mail:focus, .header-tel:focus {color: #2196F3; fill:#2196F3;}
 
-.header-contacts-item {fill: #757575;}
-
-
+.header-mail:hover , .header-tel:hover {color: #2196F3; fill: #2196F3;}
 
 /*------------------------------HERO------------------------------*/
 
