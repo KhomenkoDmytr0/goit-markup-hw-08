@@ -341,7 +341,8 @@ font-family: 'Roboto';
     color: #212121;
 border: none;
 
-    transition: color 250ms linear;
+    
+        transition: background-color 250ms linear , color 250ms linear;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -568,11 +569,15 @@ margin-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+        transition: background-color 250ms linear, fill 250ms linear;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .team-soc-icon {
     fill: #AFB1B8;
+        transition: fill 250ms linear;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link:hover , .team-soc-link:focus {
@@ -608,12 +613,13 @@ margin-bottom: 0;
 
 .clients-link:hover .clients-icon {
     fill: #2196F3;
-    transition: background-color 250ms linear, fill 250ms linear;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition: fill 250ms linear;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:focus .clients-icon {
     fill: #2196F3;
+
 }
 
 .clients-item {
@@ -723,7 +729,10 @@ border-radius: 4px;}
 }
 
 .portfolio-item:hover , .portfolio-item:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: box-shadow 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 .portfolio-item  {border: 1px solid #EEEEEE;}
@@ -765,7 +774,7 @@ border-radius: 4px;}
 .backdrop {
     width: 100%;
     height: 100%;
-    background-color: #2195f375;
+    background-color:rgba(47, 48, 58, 0.8);;
     position: fixed;
     top: 0;
     transition: 250ms linear; visibility: 250ms linear;
@@ -802,8 +811,13 @@ transform: translate(-50% , -50%) scale(0);
     align-items: center;
     justify-content: center;
     cursor: pointer;
-
+    padding-top: 4px;
 }
+
+.modal-close:hover { fill: #2196F3;
+border-color: #2196F3;}
+
+
 .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -837,3 +851,29 @@ content: '';
     margin-bottom: -32px;
 
 }
+
+
+.thumb {
+    position: relative;
+    overflow: hidden;
+    }
+
+    .thumb .label {
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        background-color: rgba(47, 48, 58, 0.8);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
