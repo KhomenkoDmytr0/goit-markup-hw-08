@@ -342,7 +342,7 @@ font-family: 'Roboto';
 border: none;
 
     
-        transition: background-color 250ms linear , color 250ms linear;
+        transition: background-color 250ms linear , color 250ms linear, box-shadow 250ms linear;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -608,13 +608,13 @@ margin-bottom: 0;
 }
 
 .clients-icon {
-    fill: #AFB1B8;
+    fill: #AFB1B8;transition: fill 250ms linear;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover .clients-icon {
     fill: #2196F3;
-        transition: fill 250ms linear;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 
 .clients-link:focus .clients-icon {
@@ -636,7 +636,7 @@ margin-bottom: 0;
     align-items: center;
     justify-content: center;
     display: flex;  
-    /* transition: border-color 2000ms linear; */
+    transition: border-color 250ms linear;
 }
 .clients-icon {
     /* transition: fill 2000ms linear; */
@@ -824,25 +824,10 @@ border-color: #2196F3;}
     pointer-events: none;
 }
 
-
-.active-header-portfolio::after {
-background-color: #2196F3;
-content: '';
-    width: 78px;
-    height: 2px;
-    display: block;
-    border: 2px solid #2196F3;
-    border-radius: 2px;
-    margin-top: 30px;
-    margin-bottom: -30px;
-    /* position: fixed; */
-    
-}
-
-.active-header-studio::after {
+.active-header::after {
     background-color: #2196F3;
     content: '';
-    width: 48px;
+    width: 100%;
     height: 2px;
     display: block;
     border: 2px solid #2196F3;
