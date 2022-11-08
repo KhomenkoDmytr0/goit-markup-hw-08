@@ -380,6 +380,30 @@
             </ul>
             
         </div>
+
+        <div class="ft-input">
+
+            <p class="input-title-name1">Підпишіться на розсилку</p>
+
+            <div class="input-stack">
+                <label class="input-label1">
+    
+                         <div class="input-wrap1">
+                           <input type="text" name="user-name1" class="modal-input1" placeholder="E-mail" style="color: white;"/>
+                           
+                         </div>
+                </label>      
+    
+                <button type="submit" class="submit-bt1"><span class="submit-bt-text1">Підписатися</span>
+
+                    <svg class="subscribe-icon" width="24" height="24">
+                        <use href="./img/icons.svg#icon-icon-send"></use>
+                    </svg>
+                    
+                </button>
+            </div>
+            
+        </div>
 </div>
     
 </footer>
@@ -410,7 +434,7 @@
                     <div class="input-wrap">
                         <input type="text" name="user-name" class="modal-input" placeholder="" />
                         <svg class="modal-input-icon" width="18" height="18">
-                            <use href="./img/icons.svg#icon-person-black-18dp"></use>
+                            <use href="./img/icons.svg#icon-phone-black-18dp"></use>
                         </svg>
                     </div>
                 </label>
@@ -419,7 +443,7 @@
                     <div class="input-wrap">
                         <input type="text" name="user-name" class="modal-input" placeholder="" />
                         <svg class="modal-input-icon" width="18" height="18">
-                            <use href="./img/icons.svg#icon-person-black-18dp"></use>
+                            <use href="./img/icons.svg#icon-email-black-18dp"></use>
                         </svg>
                     </div>
                 </label>
@@ -433,30 +457,34 @@
                 </label>
 
 
-                <!-- <div>
-                    <label for="privacy" class="check-text">Погоджуюся з розсилкою та приймаю Умови договору 
+                <div class="privacy-block"> 
+                    <input 
+                    type="checkbox" 
+                    name="privacy" 
+                    id="privacy" 
+                    class="input-check visually-hidden">
+
+
+                    <label for="privacy" class="check-text">
+
                         <span>
-                            <svg class="check-icon" width="16" height="15">
-                                <use href="./img/icons.svg#icon-check-border"></use>
-                            </svg>
                             <svg class="check-icon" width="16" height="15">
                                 <use href="./img/icons.svg#icon-icon-check"></use>
                             </svg>
-                        </span>
-                    </label>
-                    <input type="checkbox" name="privacy" id="privacy" class="input-check">
 
-                </div> -->
+                        </span>Погоджуюся з розсилкою та приймаю <a href="/">Умови договору</a></span>
+
+                    </label>
+                   
+
+                </div>
 
 
        
 
             
-            <button type="submit" class="submit-bt"><span class="submit-bt-text">Відправити</span></button>
-            
-
+            <button type="submit" class="submit-bt"><span class="submit-bt-text">Відправити</span></button>        
         </form>
-
     </div>
 
 </div>
