@@ -1,0 +1,72 @@
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.clients-icon {
+    fill: #AFB1B8;
+    transition: fill 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover .clients-icon {
+    fill: #2196F3;
+
+}
+
+.clients-link:focus .clients-icon {
+    fill: #2196F3;
+
+}
+
+.clients-item {
+
+    width: calc((100% - 150px)/6);
+
+
+}
+
+
+
+.clients-link {
+    height: 92px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: border-color 250ms linear;
+}
+
+
+
+.clients-link {
+    border: solid 1px #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border: solid 1px #2196F3;
+
+}
+
+
+
+.clients .container {
+    display: block;
+}
+
+.clients {
+    padding-top: 95px;
+    padding-bottom: 91px;
+}

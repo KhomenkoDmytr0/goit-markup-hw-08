@@ -1,0 +1,121 @@
+.header-list {
+    display: flex;
+}
+
+header {
+    border-bottom: 1px solid #ECECEC;
+    padding: 25px 0;
+}
+
+.header-list {
+    align-items: center;
+}
+
+.active-header::after {
+    background-color: #2196F3;
+    content: '';
+    width: 100%;
+    height: 2px;
+    display: block;
+    border: 2px solid #2196F3;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-bottom: -32px;
+
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    transition: color 250ms linear;
+
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196F3;
+}
+
+.header-mail {
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    transition: color 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.header-tel {
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    display: flex;
+    transition: color 250ms linear;
+}
+
+.header-mail,
+.header-tel {
+    fill: #757575;
+}
+
+.header-mail:focus,
+.header-tel:focus {
+    color: #2196F3;
+    fill: #2196F3;
+}
+
+.header-mail:hover,
+.header-tel:hover {
+    color: #2196F3;
+    fill: #2196F3;
+}
+.header-item:nth-child(2) {
+    margin-left: 93px;
+}
+
+.header-item {
+    margin-left: 50px;
+    display: block;
+}
+
+.contacts-header {
+
+    margin-left: 280px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.header-contacts-item {
+    margin-right: 10px;
+}
+
+.logo-web {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}

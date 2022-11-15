@@ -1,0 +1,41 @@
+.skills-list {
+    list-style: none;
+}
+
+.skills {
+
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.skills-list {
+    flex-direction: row;
+    display: flex;
+}
+
+.skills-h3 {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #212121;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+
+.skills-p {
+    font-weight: 400;
+    line-height: 1.71;
+    color: #757575;
+}
+
+.skills-list,
+.team-list,
+.about-list,
+.portfolio-list {
+    column-gap: 30px;
+}

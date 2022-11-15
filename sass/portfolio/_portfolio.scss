@@ -1,0 +1,149 @@
+.portfolio-item:hover,
+.portfolio-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: box-shadow 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.portfolio-item {
+    border: 1px solid #EEEEEE;
+}
+
+
+
+/*----------------------------HW5----------------------------*/
+
+.portfolio-cover-text {
+    position: absolute;
+    top: 0;
+    padding: 63px 24px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55;
+    background-color: rgba(33, 150, 243, 0.9);
+    height: 100%;
+    transform: translateY(100%);
+    transition: 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: auto;
+}
+
+.portfolio-item:hover .portfolio-cover-text {
+    transform: translateY(0);
+}
+
+
+.portfolio-top-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-buttons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portfolio-bt {
+    background-color: #F5F4FA;
+    margin-left: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    border: none;
+
+
+    transition: background-color 250ms linear, color 250ms linear, box-shadow 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-bt:focus {
+    color: #FFFFFF;
+    background-color: #2196F3
+}
+
+.portfolio-bt:hover {
+    color: #FFFFFF;
+    background-color: #2196F3
+}
+
+.portfolio-h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-txt {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.portfolio-item {
+    width: 370px;
+}
+
+.portfolio-buttons-list {
+    margin-bottom: 50px;
+}
+
+.portfolio-bt {
+    border-radius: 4px;
+    row-gap: 8px;
+    padding: 6px 22px;
+}
+
+.portfolio-bt:hover {
+    border-radius: 4px;
+    box-shadow: 0 4px 8px -2px #2F303A;
+    border: none;
+}
+
+.portfolio-bt:focus {
+    border-radius: 4px;
+    box-shadow: 0 4px 8px -2px #2F303A;
+    border: none;
+}
+
+
+
+
+.portfolio-h2 {
+    margin-bottom: 4px;
+}
+
+
+
+.portfolio-description {
+    border-top: none;
+    padding: 20px 24px;
+}
+
+
+
+
+.portfolio-block {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    flex-direction: column;
+}

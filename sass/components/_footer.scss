@@ -1,0 +1,156 @@
+footer .header-mail,
+footer .header-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer .logo-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address-ft {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+
+
+
+.ft-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.ft-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer {
+    padding: 60px 0;
+}
+
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.footer-soc-item {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 90px;
+}
+
+.footer-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms linear, fill 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-icon {
+    fill: #FFFFFF;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: #2196F3;
+}
+
+.footer-soc-link:hover .footer-soc-icon {
+    fill: #FFFFFF;
+}
+
+.footer-soc-link:focus .footer-soc-icon {
+    fill: #FFFFFF;
+}
+
+.footer-soc-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.94;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-soc {
+    margin-left: 70px;
+    margin-top: 12px;
+}
+
+.info-ft {
+    flex-direction: column;
+}
+
+.ft {
+    padding: 0 0 0 0;
+}
+
+.logo-position-ft {
+    line-height: 31px;
+}
+
+.contact-ft {
+    margin-bottom: 9px;
+}
+
+.contact-ft:last-child {
+    margin-bottom: 0;
+}
+
+.address-ft {
+    margin-top: 20px;
+}
+
+.ft-input {
+    display: flex;
+    display: block;
+    margin-left: 93px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.submit-bt-text1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-icon {
+
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    margin-left: 10px;
+}
+
