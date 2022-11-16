@@ -66,24 +66,30 @@ footer {
     justify-content: center;
     transition: background-color 250ms linear, fill 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            background-color: #2196F3;
+        }
+
+                &:hover .footer-soc-icon {
+                    fill: #FFFFFF;
+                }
+
+                                &:focus .footer-soc-icon {
+                                    fill: #FFFFFF;
+                                }
 }
 
 .footer-soc-icon {
     fill: #FFFFFF;
 }
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-    background-color: #2196F3;
-}
 
-.footer-soc-link:hover .footer-soc-icon {
-    fill: #FFFFFF;
-}
 
-.footer-soc-link:focus .footer-soc-icon {
-    fill: #FFFFFF;
-}
+
+
+
 
 .footer-soc-h3 {
     font-weight: 700;
@@ -113,11 +119,13 @@ footer {
 
 .contact-ft {
     margin-bottom: 9px;
+
+    &:last-child {
+            margin-bottom: 0;
+        }
 }
 
-.contact-ft:last-child {
-    margin-bottom: 0;
-}
+
 
 .address-ft {
     margin-top: 20px;
