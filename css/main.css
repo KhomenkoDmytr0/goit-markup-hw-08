@@ -352,13 +352,19 @@ header {
 }
 
 .header-tel {
+  fill: #757575;
+  transition: fill 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-tel {
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
   display: flex;
-  transition: color 250ms linear;
+  transition: color 250ms linear, fill 250ms linear;
 }
 
 .header-mail:hover,
