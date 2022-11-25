@@ -1,3 +1,23 @@
+.footer__container {
+    @media screen and(min-width:480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+    }
+
+        @media screen and(min-width:768px){
+           flex-wrap: wrap;
+           flex-direction: row;
+      justify-content: space-around;
+      align-content: flex-start;
+      align-items: flex-start;
+        }
+}
+
+
+
+
 footer .contacts__mail,
 footer .header-tel {
     color: rgba(255, 255, 255, 0.6);
@@ -36,8 +56,9 @@ footer .menu__studio {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
+    color: rgba(255, 255, 255, 0.6);}
+
+  
 
 footer {
     padding: 60px 0;
@@ -103,10 +124,36 @@ footer {
 .footer-soc {
     margin-left: 70px;
     margin-top: 12px;
+    @media screen and(min-width:480px){
+        margin-top: 60px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+        @media screen and(min-width:768px){
+            margin-top: 5px;
+            // align-items: flex-start;
+
+        }
 }
 
 .info-ft {
     flex-direction: column;
+    @media screen and(min-width:480px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.footer__list {
+    @media screen and(min-width:480px){
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    }
 }
 
 .ft {
@@ -115,6 +162,9 @@ footer {
 
 .logo-position-ft {
     line-height: 31px;
+    @media screen and(min-width:480px){
+        
+    }
 }
 
 .contact-ft {
@@ -123,7 +173,12 @@ footer {
     &:last-child {
             margin-bottom: 0;
         }
+
+                 @media screen and(min-width:480px){
+                    margin-bottom: 8px;
+                 }
 }
+
 
 
 
@@ -137,6 +192,11 @@ footer {
     margin-left: 93px;
     justify-content: center;
     margin-top: 10px;
+    @media screen and(min-width:480px){
+        margin-left: 0;
+        width: 100%;
+        margin-top: 60px;
+    }
 }
 
 .submit-bt-text1 {
@@ -170,4 +230,69 @@ footer {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+
+.input-stack {
+    display: flex;
+    @media screen and(min-width:480px){
+        flex-direction: column;
+    }
+}
+.input-label1 {
+    @media screen and(min-width:480px){
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+        @media screen and(min-width:768px){
+            max-width: 450px;
+           margin: 0 auto;
+           margin-bottom: 20px;
+        }
+}
+
+.modal-input1 {
+    background-color: #2F303A;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+
+    @media screen and(min-width:480px){
+        width: 100%;
+    }
+
+}
+
+.input-title-name1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    @media screen and(min-width:480px){
+        text-align: center;
+    }
+}
+
+.submit-bt1 {
+    margin-left: 12px;
+    background-color: #2196F3;
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and(min-width:480px){
+      margin: 0 auto;
+    }
 }

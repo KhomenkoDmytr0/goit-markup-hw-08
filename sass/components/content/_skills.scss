@@ -9,7 +9,7 @@
     
    
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
                 padding-top: 60px;
                 padding-bottom: 60px;
         }
@@ -25,7 +25,7 @@
 
 
 .skills-item {
-    width: 100%;
+    
 
     @media screen and (min-width: 768px) {
 
@@ -34,17 +34,19 @@
 }
 
 .skills-list {
+    width: 100%;
     flex-direction: row;
     display: flex;
     
    
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
             display: block;
         }
     
         @media screen and (min-width: 768px) {
             display: flex;
+            flex-wrap: wrap;
             
         }
 }
@@ -59,7 +61,7 @@
     margin-bottom: 10px;
     margin-top: 30px;
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
            
         }
     
@@ -73,7 +75,7 @@
     line-height: 1.71;
     color: #757575;
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         margin-bottom: 30px;
     }
     
@@ -87,3 +89,8 @@
     column-gap: 30px;
 }
 
+.skills-item:last-child p {
+    @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+    }
+} 
