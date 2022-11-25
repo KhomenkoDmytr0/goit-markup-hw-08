@@ -1,6 +1,8 @@
 .clients-list {
     display: flex;
     gap: 30px;
+    width: 100%;
+    
 }
 
 .clients-h2 {
@@ -11,6 +13,12 @@
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
+
+    @media screen and (min-width: 480px){
+        margin-bottom: 30px;
+    }
+
+   
 }
 
 .clients-icon {
@@ -31,7 +39,11 @@
 
 .clients-item {
 
-    width: calc((100% - 150px)/6);
+    width: 100%;
+
+    @media screen and (min-width: 480px){
+        width: calc((100% - 30px) / 3);
+    }
 
 
 }
@@ -44,6 +56,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    
     transition: border-color 250ms linear;
 }
 
@@ -69,4 +82,9 @@
 .clients {
     padding-top: 95px;
     padding-bottom: 91px;
+
+    @media screen and (min-width: 480px){
+        padding-top: 60px;
+            padding-bottom: 60px;
+    }
 }
