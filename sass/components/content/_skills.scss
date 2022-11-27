@@ -20,6 +20,9 @@
             
          }
 
+                 @media screen and (min-width: 1200px){padding-top: 94px;
+                    padding-bottom: 94px;}
+
 }
 
 
@@ -31,6 +34,13 @@
 
         width: calc((100% - 30px) / 2);
     }
+        @media screen and (min-width: 1200px){
+            width: 100%;
+        }
+
+                @media screen and (min-width: 1200px){
+                width: calc((100% - 90px) / 4);
+                }
 }
 
 .skills-list {
@@ -49,6 +59,9 @@
             flex-wrap: wrap;
             
         }
+                @media screen and (min-width: 1200px){
+                  
+                }
 }
 
 .skills-h3 {
