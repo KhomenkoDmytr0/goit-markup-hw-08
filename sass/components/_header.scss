@@ -5,6 +5,12 @@
 header {
     border-bottom: 1px solid #ECECEC;
     padding: 25px 0;
+    @media screen and(min-width:480px) {
+            padding-left: 15px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-right: 0;
+        }
 }
 
 .menu__list {
@@ -35,6 +41,9 @@ header {
         &:focus {
             color: #2196F3;
         }
+                @media screen and(min-width:480px) {
+                    display: none;
+                }
 
 }
 
@@ -62,6 +71,10 @@ header {
                     fill: #2196F3;
                 }
 
+                                @media screen and(min-width:480px) {
+                                    display: none;
+                                } 
+
 }
 .contacts__tel {fill: #757575;
     transition: fill 250ms linear;
@@ -79,6 +92,9 @@ header {
     color: #757575;
     display: flex;
     transition: color 250ms linear, fill 250ms linear;
+    @media screen and(min-width:480px) {
+            display: none;
+        }
 }
 
 
@@ -97,6 +113,9 @@ header {
 .menu__item {
     margin-left: 50px;
     display: block;
+    @media screen and(min-width:480px) {
+           display: none;
+        }
 }
 
 .contacts__menu {
