@@ -5,7 +5,7 @@
 header {
     border-bottom: 1px solid #ECECEC;
     padding: 25px 0;
-    @media screen and(min-width:480px) {
+    @media screen and(min-width:0px) {
             // padding-left: 15px;
             padding-top: 16px;
             padding-bottom: 16px;
@@ -23,7 +23,7 @@ header {
 }
 
 .header .container {
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         padding-left: 0;
         padding-right: 0;
     }
@@ -74,7 +74,7 @@ header {
         &:focus {
             color: #2196F3;
         }
-                @media screen and(min-width:480px) {
+                @media screen and(min-width:0px) {
                     display: none;
                 }
                                  @media screen and(min-width:768px) {
@@ -107,7 +107,7 @@ header {
                     fill: #2196F3;
                 }
 
-                                @media screen and(min-width:480px) {
+                                @media screen and(min-width:0px) {
                                     display: none;
                                 } 
 
@@ -137,11 +137,11 @@ header {
     color: #757575;
     display: flex;
     transition: color 250ms linear, fill 250ms linear;
-    @media screen and(min-width:480px) {
+    @media screen and(min-width:0px) {
             display: none;
         }
 
-                  @media screen and(min-width:480px) {
+                  @media screen and(min-width:0px) {
                       display: flex;
                   }
 }
@@ -168,7 +168,7 @@ header {
 .menu__item {
     margin-left: 50px;
     display: block;
-    @media screen and(min-width:480px) {
+    @media screen and(min-width:0px) {
            display: none;
         }
                 @media screen and(min-width:768px) {
@@ -183,7 +183,7 @@ header {
     flex-direction: row;
     gap: 50px;
 
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         display: none;
     }
 

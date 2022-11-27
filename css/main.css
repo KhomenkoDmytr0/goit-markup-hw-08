@@ -2,23 +2,23 @@
   display: flex;
   box-sizing: border-box;
   margin: 0 auto;
-  width: 1200px;
+  width: 320px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 480px;
+    min-width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    min-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    min-width: 1200px;
   }
 }
 
@@ -504,7 +504,7 @@ header {
   border-bottom: 1px solid #ECECEC;
   padding: 25px 0;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   header {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -524,7 +524,7 @@ header {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .header .container {
     padding-left: 0;
     padding-right: 0;
@@ -580,7 +580,7 @@ header {
 .menu__link:hover, .menu__link:focus {
   color: #2196F3;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .menu__link {
     display: none;
   }
@@ -609,7 +609,7 @@ header {
   color: #2196F3;
   fill: #2196F3;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .contacts__mail {
     display: none;
   }
@@ -635,12 +635,12 @@ header {
   display: flex;
   transition: color 250ms linear, fill 250ms linear;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .contacts__tel {
     display: none;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .contacts__tel {
     display: flex;
   }
@@ -670,7 +670,7 @@ header {
   margin-left: 50px;
   display: block;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .menu__item {
     display: none;
   }
@@ -687,7 +687,7 @@ header {
   flex-direction: row;
   gap: 50px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .contacts__menu {
     display: none;
   }
@@ -762,6 +762,11 @@ header {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero-bg-768.jpg);
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/hero-bg-logo.jpg);
+  }
+}
 
 .hero__name {
   font-weight: 900;
@@ -829,7 +834,7 @@ header {
   border: none;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .footer__container {
     display: flex;
     flex-direction: column;
@@ -944,7 +949,7 @@ footer {
   margin-left: 70px;
   margin-top: 12px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .footer-soc {
     margin-top: 60px;
     margin-left: 0;
@@ -968,7 +973,7 @@ footer {
 .info-ft {
   flex-direction: column;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .info-ft {
     display: flex;
     flex-direction: column;
@@ -982,7 +987,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .footer__list {
     display: flex;
     flex-direction: column;
@@ -1009,7 +1014,7 @@ footer {
 .contact-ft:last-child {
   margin-bottom: 0;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .contact-ft {
     margin-bottom: 8px;
   }
@@ -1031,7 +1036,7 @@ footer {
   justify-content: center;
   margin-top: 10px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .ft-input {
     margin-left: 0;
     width: 100%;
@@ -1079,7 +1084,7 @@ footer {
 .input-stack {
   display: flex;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .input-stack {
     flex-direction: column;
   }
@@ -1091,7 +1096,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .input-label1 {
     margin-bottom: 20px;
     width: 100%;
@@ -1120,7 +1125,7 @@ footer {
   height: 50px;
   padding-left: 16px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .modal-input1 {
     width: 100%;
   }
@@ -1141,7 +1146,7 @@ footer {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .input-title-name1 {
     text-align: center;
   }
@@ -1163,7 +1168,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .submit-bt1 {
     margin: 0 auto;
   }
@@ -1602,14 +1607,14 @@ input {
   flex-direction: column;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .menu__open {
     display: flex;
     margin-left: auto;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .menu__close {
     display: flex;
     margin-right: 0;
@@ -1617,7 +1622,7 @@ input {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   .mob__menu {
     width: 100vw;
     height: 100vh;
