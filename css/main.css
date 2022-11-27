@@ -1434,6 +1434,7 @@ input {
   padding-left: 10px;
   padding-right: 10px;
   color: rgba(33, 33, 33, 0.2);
+  align-items: baseline;
 }
 
 .mob__socials-item:last-child::after {
