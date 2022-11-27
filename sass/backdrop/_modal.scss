@@ -20,11 +20,15 @@
     border-radius: 4px;
     transition: 250ms linear;
     padding: 40px;
+
+    @media screen and (min-width: 480px) {
+        max-width: 450px;
+    }
 }
 
-.backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0);
-}
+// .backdrop.is-hidden .modal {
+//     transform: translate(-50%, -50%) scale(0);
+// }
 
 
 .modal-close {
@@ -52,11 +56,11 @@
 
 
 
-.backdrop.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
+// .backdrop.is-hidden {
+//     opacity: 0;
+//     visibility: hidden;
+//     pointer-events: none;
+// }
 
 
 

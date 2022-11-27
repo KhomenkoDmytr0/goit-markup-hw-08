@@ -1,15 +1,19 @@
 .menu__open {
     @media screen and(min-width:480px) {
-            margin-left: 276px;
-            margin-right: 15px;
+            // margin-left: 276px;
+            // margin-right: 15px;
+            display: flex;
+            margin-left: auto;
+            margin-right: 40px;
            
         }
 }
 
 .menu__close {
     @media screen and(min-width:480px) {
-        display: block;
-
+        display: flex;
+        margin-right: 0;
+        margin-left: auto;
     }
 }
 
@@ -20,17 +24,124 @@
             height: 100vh;
             background-color: #fff;
             top: 0;
+            left: 0;
             position: fixed;
             z-index: 1;
-           
-    
+
         }
 }
 
-.mob__menu .container {
-    @media screen and(min-width:480px) {
-           display: flex;
-           flex-direction: column;
-        }
+// .mob__menu .container {
+//     @media screen and(min-width:480px) {
+//            display: flex;
+//            flex-direction: column;
+//         }
 
+// }
+
+// далі нові стилі
+
+.mob__menu-link {
+   
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 47px;
+            letter-spacing: 0.02em;
+        
+            color: #212121;
+            text-decoration: none;
+    
+}
+
+.mob__menu {
+    display: flex;
+        flex-direction: column;
+        justify-self: flex-start;
+        margin-right: auto;
+
+        @media screen and (min-width: 480px){
+            padding-left: 40px;
+            padding-right: 15px;
+            padding-bottom: 48px;
+            overflow: hidden;
+        }
+}
+
+.mob__active {
+color: #2196F3;
+padding-left: 5px;
+}
+
+.mob__menu-item {
+margin-bottom: 32px;
+}
+
+.mob__socials-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.mob__socials {
+  margin-top: 32px;
+
+}
+
+
+.mob__contacts-tel {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #2196F3;
+
+}
+
+.mob__contacts-list li {
+margin-bottom: 32px;
+}
+
+.mob__contacts-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+
+.mob__contacts {
+    margin-top: auto;
+}
+
+.mob__socials-item::after {
+    content: '|';
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(33, 33, 33, 0.2);
+}
+
+.mob__socials-item:last-child::after {
+    display: none;
+}
+
+.mob__socials-item {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height, or 122% */
+    
+        letter-spacing: 0.02em;
+    
+        color: #2196F3;
 }
