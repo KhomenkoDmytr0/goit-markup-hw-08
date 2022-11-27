@@ -1,5 +1,5 @@
 .footer__container {
-    @media screen and(min-width:480px) {
+    @media screen and(min-width:0px) {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -128,7 +128,7 @@ footer {
 .footer-soc {
     margin-left: 70px;
     margin-top: 12px;
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         margin-top: 60px;
         margin-left: 0;
         text-align: center;
@@ -149,7 +149,7 @@ footer {
 
 .info-ft {
     flex-direction: column;
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -161,7 +161,7 @@ footer {
 }
 
 .footer__list {
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         display: flex;
             flex-direction: column;
             align-items: center;
@@ -178,7 +178,7 @@ footer {
 
 .logo-position-ft {
     line-height: 31px;
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         
     }
 }
@@ -190,7 +190,7 @@ footer {
             margin-bottom: 0;
         }
 
-                 @media screen and(min-width:480px){
+                 @media screen and(min-width:0px){
                     margin-bottom: 8px;
                  }
                                  @media screen and (min-width: 1200px) {
@@ -211,7 +211,7 @@ footer {
     margin-left: 93px;
     justify-content: center;
     margin-top: 10px;
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         margin-left: 0;
         width: 100%;
         margin-top: 60px;
@@ -257,7 +257,7 @@ footer {
 
 .input-stack {
     display: flex;
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         flex-direction: column;
     }
         @media screen and (min-width: 1200px){
@@ -268,7 +268,7 @@ footer {
 
 
 .input-label1 {
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         margin-bottom: 20px;
         width: 100%;
     }
@@ -293,7 +293,7 @@ footer {
     height: 50px;
     padding-left: 16px;
 
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         width: 100%;
     }
         @media screen and (min-width: 1200px){
@@ -313,7 +313,7 @@ footer {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
         text-align: center;
     }
    
@@ -333,7 +333,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-    @media screen and(min-width:480px){
+    @media screen and(min-width:0px){
       margin: 0 auto;
     }
         @media screen and (min-width: 1200px){
