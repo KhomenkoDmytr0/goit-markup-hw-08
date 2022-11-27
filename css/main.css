@@ -1377,6 +1377,7 @@ input {
     padding-left: 40px;
     padding-right: 15px;
     padding-bottom: 48px;
+    padding-top: 10px;
     overflow: hidden;
   }
 }
