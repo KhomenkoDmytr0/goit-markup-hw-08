@@ -31,6 +31,8 @@
 
                                 @media screen and (min-width: 1200px){
                                     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-bg-logo.jpg);
+                                    padding-bottom: 200px;
+                                        padding-top: 200px;
                                 }
 
        
@@ -50,6 +52,7 @@
     margin-bottom: 30px;
 
     @media screen and (min-width: 320px) and (max-width: 767px) {
+        max-width: 360px;
         font-family: 'Roboto';
             font-style: normal;
             font-weight: 900;
@@ -79,6 +82,21 @@
             max-width: 360px;
             
         }
+
+                @media screen and (min-width: 1200px){
+                    max-width: 694px;
+                    font-style: normal;
+                        font-weight: 900;
+                        font-size: 44px;
+                        line-height: 1.45;
+                        /* or 136% */
+                    
+                        text-align: center;
+                        letter-spacing: 0.06em;
+                        text-transform: uppercase;
+                    
+                        color: #FFFFFF;
+                }
 
     
 }

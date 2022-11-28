@@ -113,7 +113,27 @@ header {
 
                            @media screen and(min-width:768px) {
                                display:flex;
+                            font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 12px;
+                                line-height: 1.16;
+                                /* identical to box height */
+                            
+                                letter-spacing: 0.02em;
+                            
+                                color: #757575;
                            }
+                                                        @media screen and(min-width:1200px) {
+                                                            font-family: 'Roboto';
+                                                                font-style: normal;
+                                                                font-weight: 500;
+                                                                font-size: 14px;
+                                                                line-height: 16px;
+                                                                letter-spacing: 0.02em;
+                                                            
+                                                                color: #757575;
+                                                        }
 
                            
                                                                  
@@ -144,6 +164,25 @@ header {
                   @media screen and(min-width:0px) {
                       display: flex;
                   }
+                                  @media screen and(min-width:768px){
+                                    font-weight: 500;
+                                        font-size: 12px;
+                                        line-height: 1.16;                                   
+                                        letter-spacing: 0.02em;
+                                    
+                                        color: #757575;
+
+                                  }
+
+                                                                   @media screen and(min-width:1200px){
+                                                                    
+                                                                        font-weight: 500;
+                                                                        font-size: 14px;
+                                                                        line-height: 1.14;
+                                                                        letter-spacing: 0.02em;
+                                                                    
+                                                                        color: #757575;
+                                                                   }
 }
 
 

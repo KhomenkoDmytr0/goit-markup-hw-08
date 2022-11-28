@@ -27,17 +27,10 @@
             z-index: 1;
 
         }
+
 }
 
-// .mob__menu .container {
-//     @media screen and(min-width:0px) {
-//            display: flex;
-//            flex-direction: column;
-//         }
 
-// }
-
-// далі нові стилі
 
 .mob__menu-link {
    
@@ -59,7 +52,7 @@
         justify-self: flex-start;
         margin-right: auto;
 
-        @media screen and (min-width: 480px){
+        @media screen and (min-width: 0px){
             padding-left: 40px;
             padding-right: 15px;
             padding-bottom: 48px;
@@ -80,6 +73,9 @@ margin-bottom: 32px;
 .mob__socials-list {
     display: flex;
     flex-direction: row;
+    @media screen and(min-width:0px){
+        
+    }
 }
 
 .mob__socials {
@@ -99,7 +95,9 @@ font-family: 'Roboto';
     letter-spacing: 0.02em;
 
     color: #2196F3;
-
+@media screen and (max-width:479px) {
+    font-size: 24px;
+}
 }
 
 .mob__contacts-list li {
@@ -144,10 +142,13 @@ color: #757575;
         letter-spacing: 0.02em;
     
         color: #2196F3;
+        @media screen and(min-width:0px) and (max-width:479px){
+          font-size: 10px;
+        }
 }
 
 .mob__menu-button {
-    @media screen and (min-width: 480px){
+    @media screen and (min-width: 0px){
         margin-left: auto;
     }
         @media screen and (min-width: 768px){
@@ -156,7 +157,7 @@ color: #757575;
 }
 
 .menu__open {
-    @media screen and (min-width: 480px){
+    @media screen and (min-width: 0px){
         background-color: transparent;
         border: none;
     }
@@ -164,7 +165,7 @@ color: #757575;
 }
 
 .menu__close {
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 0px) {
         background-color: transparent;
         border: none;
     }
