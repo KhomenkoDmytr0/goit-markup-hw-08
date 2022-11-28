@@ -606,6 +606,11 @@ header {
     display: flex;
   }
 }
+@media screen and (max-width: 767px) {
+  .menu {
+    align-self: center;
+  }
+}
 
 .menu__list {
   align-items: center;
@@ -852,6 +857,12 @@ header {
   padding-bottom: 200px;
   padding-top: 200px;
   flex-direction: column;
+}
+@media screen and (max-width: 479px) {
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 @media screen and (min-width: 480px) {
   .hero {
